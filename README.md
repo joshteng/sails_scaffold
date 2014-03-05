@@ -13,7 +13,7 @@ Set up
 
 To use MongoDB
 ------
-1. Install MongoDB locally by running 'brew mongodb' and then start it 'mongod' **make sure to configure your adapter settings in adapters.js**
+1. Install MongoDB locally by running 'brew update && brew install mongodb' and then start it 'mongod' **make sure to configure your adapter settings in adapters.js**
 2. Or use a hosted service like mongoHQ and link it to by configuring config/adapters.js
 
 
