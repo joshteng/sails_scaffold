@@ -8,7 +8,8 @@ Set up
 1. Configure your database and change package.json to the relevant database adapter
 2. Install packages with "npm install"
 3. Start your database "mongod"
-4 To run the app, just run "sails lift"
+4. To start the app, just run "sails lift"
+5. Go to "http://localhost:1337"
 
 
 To use MongoDB
