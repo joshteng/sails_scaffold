@@ -5,17 +5,18 @@
 
 Set up
 ------
-1. Configure your database and change package.json to the relevant database adapter
-2. Install packages with "npm install"
-3. Start your database "mongod"
-4. To start the app, just run "sails lift"
-5. Go to "http://localhost:1337"
+1. Configure your database in config/adapters.js (good to go if you're using mongodb)
+2. Change package.json to the relevant database adapter (if you're not using mongodb)
+3. Install packages "npm install"
+4. Start your database "mongod"
+5. Start the app "sails lift"
+6. Go to "http://localhost:1337"
 
 
 To use MongoDB
 ------
 1. Install MongoDB locally by running 'brew update && brew install mongodb' and then start it 'mongod' **make sure to configure your adapter settings in adapters.js**
-2. Or use a hosted service like mongoHQ and link it to by configuring config/adapters.js
+2. Or use a hosted service like mongoHQ and link it to by configuring config/adapters.js *more instructions in adapters.js **prevent committing sensitive information in your repo. use local.js instead, it's ignored by default (read more at Sails.JS documentation)**
 
 
 Useful Tools

@@ -41,7 +41,11 @@ module.exports.adapters = {
 
   mongo: {
     module    : 'sails-mongo',
-    url       : process.env.DB_URL,
+    host      : 'localhost',
+    user      : '',
+    password  : '',
+    database  : 'exampleApp',
+    // url       : 'mongodb://<username>:<password>@troup.mongohq.com:10081/<database_name>', //If you want to use a hosted MongoDB, I suggest MongoHQ and paste your database URL here and then comment out host, user, password, and database settings above.
     schema    : true
   }
 };
